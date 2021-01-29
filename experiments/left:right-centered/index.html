@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FlexBox Experiments</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div class="wrapper">
+    
+    <header class="top">
+      <h1>This should be all be centered</h1>
+    </header>
+
+
+    <section class="img-text">
+        <div class="img-text__left">
+            <img src="https://i.picsum.photos/id/453/1000/600.jpg?hmac=FQ9dR49N7h__n3DcR3eR_tXh4_hWm6Rvl6GDG9GWNE0">
+        </div>
+        <div class="img-text__right">
+            <div class="img-text__contain">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum voluptas nostrum fugit laudantium, quaerat nulla minus et, dolores commodi sed similique quibusdam! Harum, vel eius hic quo expedita adipisci, mollitia nesciunt amet reiciendis, minima numquam. Repellendus harum repudiandae provident neque?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur molestiae animi obcaecati ratione velit corrupti numquam similique odit reiciendis magnam.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="img-text img-text__flip">
+        <div class="img-text__left">
+            <img src="https://i.picsum.photos/id/453/1000/600.jpg?hmac=FQ9dR49N7h__n3DcR3eR_tXh4_hWm6Rvl6GDG9GWNE0">
+        </div>
+        <div class="img-text__right">
+            <div class="img-text__contain">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum voluptas nostrum fugit laudantium, quaerat nulla minus et, dolores commodi sed similique quibusdam! Harum, vel eius hic quo expedita adipisci, mollitia nesciunt amet reiciendis, minima numquam. Repellendus harum repudiandae provident neque?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur molestiae animi obcaecati ratione velit corrupti numquam similique odit reiciendis magnam.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="line-draw">
+        <div class="line-draw__pieces">
+            <span class="line line--top"></span>
+            <span class="line line--right"></span>
+            <span class="line line--bottom"></span>
+            <span class="line line--left"></span>
+        </div>
+        <div class="line-draw__img-contain">
+            <img src="http://picsum.photos/1000/600/" alt="">
+        </div>
+        <div class="line-draw__text-contain">
+            <div class="line-draw__text">
+                <h3>Howdy there</h3>
+            </div>
+        </div>
+    </section>
+  </div>
+
+  <script>
+      const lineDraw = document.querySelector(`.line-draw`);
+
+      lineDraw.addEventListener('mouseover', function() {
+          this.classList.add(`active`);
+      });
+
+
+  </script>
+</body>
+</html>
