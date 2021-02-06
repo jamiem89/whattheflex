@@ -1,3 +1,7 @@
+# The good stuff is in the wiki!
+
+I created a repo just to hold my notes, so [check out the wiki](https://github.com/jamiem89/whattheflex/wiki).
+
 # What The Flexbox?!
 
 ![](https://flexbox.io/images/WTF/share.png)
